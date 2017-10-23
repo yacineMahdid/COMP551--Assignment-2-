@@ -11,8 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sets import Set
 import numpy as np
 
-file_out_noscaling = open('cleaned_x_train.csv', 'wb')
-file_out_scaled = open('cleaned_x_train-sc.csv', 'wb')
+
 
 #define our complete alphabet to count our letters
 def get_alphabet():
@@ -73,7 +72,6 @@ def preprocess_x():
 	x = []
 	for i in range(len(rows)):
 		bagged = count_chars(rows[i], valid_alphabet)
-		file_out_noscaling.write(str(bagged) + '\n')
 		x.append(bagged)
 
 	#we want to scale our data for our optimization algorith

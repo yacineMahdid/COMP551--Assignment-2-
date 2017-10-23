@@ -14,10 +14,10 @@ from sklearn.model_selection import train_test_split
 from sets import Set
 import numpy as np
 
-output_file = open('nn-results-73-nohttp.csv', 'wb')
+output_file = open('nn-results-scaled.csv', 'wb')
 
 #load our training and testing data
-train_test_data = np.load('train_test_data-73-nohttp.npz')
+train_test_data = np.load('train_test_data-scaled.npz')
 
 X_train = train_test_data['X_train']
 print ("X_train: ",X_train.shape)

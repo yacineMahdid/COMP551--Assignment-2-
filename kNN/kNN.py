@@ -97,6 +97,7 @@ k = 3
 
 
 # Reading training and testing data
+# the blank 1203 rows in the training data were removed and a vlookup was done to add the labels in the same file itself. 
 train_data = pd.read_csv("train_set_x.csv")
 test_data = pd.read_csv("test_set_x.csv")
 

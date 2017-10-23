@@ -24,9 +24,9 @@ For the individual algorithms , specific prerequisites and various modules to be
 
 
 
-#### Nueral Network
+#### Neural Network
 
-
+	pip install sklearn csv re math numpy pandas tensorflow keras
 
 #### N Gram
 

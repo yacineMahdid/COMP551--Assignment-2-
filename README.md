@@ -32,3 +32,6 @@ For the individual algorithms , specific prerequisites and various modules to be
 #### N Gram
 
     pip install nltk re numpy string csv
+	
+#### IMPORTANT need to copy and paste the CSV file into each folder to make it work
+

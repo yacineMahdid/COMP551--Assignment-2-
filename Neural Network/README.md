@@ -4,13 +4,15 @@
 
 Steps to run:
 
+	0. Copy x_train, y_train and x_test into the folder
+	
 	1. Run 'preprocess_nn.py'
 		This will generate a .npz file with the data used for our neural network.
 
 	2. Run 'nn.py'
 		This will train the network.
 
-	Alternatively, you can run 'nn.py' directly, using the precompiled .npz file.
+	Alternatively, if present, you can run 'nn.py' directly, using the precompiled .npz file.
 
 ## Prerequisites and Recommendations
 

@@ -18,7 +18,7 @@ For the individual algorithms , specific prerequisites and various modules to be
 
 #### k Nearest neighbour
 
-pip install sklearn	csv	re	math	numpy	pandas	string	operator	time	tqdm
+    pip install sklearn	csv	re	math	numpy	pandas	string	operator	time	tqdm
 
 #### Naive Bayes
 
@@ -30,4 +30,4 @@ pip install sklearn	csv	re	math	numpy	pandas	string	operator	time	tqdm
 
 #### N Gram
 
-pip install nltk re numpy string csv
+    pip install nltk re numpy string csv
